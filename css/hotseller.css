@@ -1,0 +1,81 @@
+.hotseller__container{
+    width: 100%;
+    height: 400px;
+    margin-top: 16px;
+    .hotseller__center{
+        width: 100%;
+        height: 100%;
+        max-width: 1336px;
+        margin: 0 auto;
+        border-radius: 16px;
+        border: 1px solid #ccc;
+        padding: 16px;
+        .hot__title{
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h2{
+                font-size: 21px;
+                font-weight: 100;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                svg{
+                    width: 24px;
+                    height: 24px ;
+                    fill: #f9a825;
+                }
+            }
+        }
+        .hot__slider{
+            height: calc(100% - 45px);
+            width: 100%;
+            .prod__col__hot{
+                width: 100%;
+                height: 100%;
+                .prod__row__hot{
+                    width: 100%;
+                    height: calc(100% / 3);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 8px;
+                    gap: 8px;
+                    &:nth-of-type(3){
+                        .prod__text__hot{
+                            border-bottom: unset;
+                        }
+                    }
+                    img{
+                        width: 86px;
+                        height: 86px;
+                        object-fit: contain;
+                    }
+                    span{
+                        font-size: 32px;
+                        font-weight: bold;
+                        color: #19bfd3;
+                    }
+                    .prod__text__hot{
+                        height: 100%;
+                        padding: 12px;
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid #25252522;
+                        p{
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            -webkit-line-clamp: 2;
+                            font-size: 12px;
+                            color: #3f4064;
+                            text-align: right;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

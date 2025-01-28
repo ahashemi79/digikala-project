@@ -1,0 +1,22 @@
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    max-width: 1336px;
+    a{
+        width: 350px;
+        height: auto;
+        margin: 5px;
+        border-radius: 15px;
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+.container__1{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+    overflow-x: auto;
+    align-items: center;
+    .container__1__col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        .svg__col{
+            border-radius: 50%;
+            background-color: #f0f0f1;
+            width: 52px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px ;
+            
+            
+        }
+        img{
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            margin-bottom: 8px;
+            border-radius: 50%;
+        }
+        span{
+            width: 87px;
+            height: 72px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #3f4064;
+        }
+        svg{
+            width: 32px;
+            height: 32px;
+            fill: #a1a3a8;
+            
+        }
+    }
+}

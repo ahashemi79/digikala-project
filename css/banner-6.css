@@ -1,0 +1,22 @@
+.banner__6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1336px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    a{
+        width: 660px;
+        height: auto;
+        border-radius: 16px;
+
+
+        img{
+            width: 660px;
+            height: auto;
+            border-radius: 16px;
+        }
+    }
+}
